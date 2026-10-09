@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Group 14 — MaOM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <img src="assets/amritalogo.png" alt="Amrita Vishwa Vidyapeetham logo" class="logo">
+  <p>Amrita Vishwa Vidyapeetham, Coimbatore</p>
+</header>
+
+<main>
+  <section class="hero">
+    <p class="kicker">Team project archive</p>
+    <h1>Group 14<span>MaOM</span></h1>
+    <p class="sub">CSE-H &middot; Mastery Over Mind</p>
+  </section>
+
+  <section id="projects" aria-labelledby="ph">
+    <h2 id="ph">All Projects</h2>
+    <div id="grid" class="grid"><p class="note">Loading projects…</p></div>
+  </section>
+
+  <section id="team" aria-labelledby="th">
+    <h2 id="th">Team details</h2>
+    <ul id="team-list" class="team"><li class="note">Loading team…</li></ul>
+  </section>
+</main>
+
+<footer>Group 14 &middot; MaOM &middot; CSE-H</footer>
+
+<dialog id="viewer">
+  <button id="close" aria-label="Close">✕</button>
+  <img id="viewer-img" alt="">
+  <div class="cap"><h3 id="viewer-title"></h3><p id="viewer-desc"></p><a id="viewer-link" hidden target="_blank" rel="noopener">Open project</a></div>
+</dialog>
+<script src="script.js"></script>
+</body>
+</html>
